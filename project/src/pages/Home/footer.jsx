@@ -3,15 +3,15 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-6">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0">
         {/* Left section with logo and description */}
-        <div className="flex flex-col items-center lg:items-start mb-4 lg:mb-0">
+        <div className="flex flex-col items-center lg:items-start">
           <span className="text-2xl font-bold">3legant.</span>
           <span className="text-sm mt-1">Gift & Decoration Store</span>
         </div>
 
         {/* Navigation links */}
-        <div className="flex space-x-6 mb-4 lg:mb-0">
+        <div className="flex flex-col space-y-3 lg:space-y-0 lg:flex-row lg:space-x-6 text-center lg:text-left">
           <a href="#" className="hover:text-gray-400">Home</a>
           <a href="#" className="hover:text-gray-400">Shop</a>
           <a href="#" className="hover:text-gray-400">Product</a>
@@ -21,10 +21,10 @@ const Footer = () => {
 
         {/* Copyright section */}
         <div className="flex flex-col items-center lg:items-end">
-          <p className="text-sm mb-2 lg:mb-0">
-            Copyright &copy; 2023 3legant. All rights reserved
+          <p className="text-sm mb-2 lg:mb-0 text-center lg:text-right">
+            Copyright &copy; 2023 3legant. All rights reserved.
           </p>
-          <div className="flex space-x-4 mb-4 lg:mb-0">
+          <div className="flex flex-col lg:flex-row space-y-3 lg:space-y-0 lg:space-x-4 mb-4 lg:mb-0">
             <a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a>
             <a href="#" className="text-gray-400 hover:text-white">Terms of Use</a>
           </div>
