@@ -67,28 +67,23 @@ Run the application:
 
 Using npm:
 
-bash
 Copy code
 npm start
-or using yarn:
 
-bash
-Copy code
-yarn start
 Open your browser and navigate to http://localhost:3000.
 assets: Images, fonts, and other static files.
 components: Reusable UI components such as headers, footers, buttons, etc.
-pages: Page components such as Home, ProductDetails, Cart, etc.
+pages: Page components such as Home, Product, Cart,singIn, signUp, shop, DashBoard, CheckOut, Product Description etc.
 redux: Redux store and slices for handling global state (optional).
 utils: Helper functions and services (e.g., API requests).
 Available Scripts
-npm start: Runs the app in development mode.
-npm build: Builds the app for production to the build folder.
-npm test: Runs the test suite (if tests are set up).
-npm lint: Lints the code for style issues and errors.
-Future Improvements
+npm run dev: Runs the app in development mode.
+npm run build: Builds the app for production to the build folder.
+npm run test: Runs the test suite (if tests are set up).
+
+# Future Improvements
 Backend Integration: Connect the frontend with a Node/Express API to handle product listings, user authentication, and payment processing.
-Payment Gateway Integration: Add payment processing using services like Stripe or PayPal.
+Payment Gateway Integration: Add payment processing using services like Stripe.
 Improved Authentication: Secure authentication flows with JWT tokens and role-based access control.
 Admin Dashboard: Add admin functionalities for managing products, orders, and users.
 Contributing
@@ -99,5 +94,4 @@ Create a new branch (git checkout -b feature-branch).
 Commit your changes (git commit -m "added new feature").
 Push to the branch (git push origin feature-branch).
 Open a Pull Request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
