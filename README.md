@@ -1,4 +1,4 @@
-E-Commerce Website (Frontend)
+# E-Commerce Website (Frontend)
 This is the frontend of an e-commerce website built using the MERN (MongoDB, Express, React, Node) stack. The backend part is not included here. This application provides a user-friendly interface for browsing products, adding items to the cart, and proceeding to checkout.
 
 Table of Contents
@@ -11,6 +11,8 @@ Future Improvements
 Contributing
 License
 Features
+
+
 Product Listing: View a list of products with images, descriptions, and prices.
 Product Details: View detailed information about individual products.
 Search Functionality: Search for products by name.
@@ -74,26 +76,6 @@ bash
 Copy code
 yarn start
 Open your browser and navigate to http://localhost:3000.
-
-Folder Structure
-arduino
-Copy code
-├── public
-│   ├── index.html
-│   └── ...
-├── src
-│   ├── assets
-│   ├── components
-│   ├── pages
-│   ├── redux (if using Redux)
-│   ├── utils
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── .env
-├── package.json
-├── README.md
-└── ...
 assets: Images, fonts, and other static files.
 components: Reusable UI components such as headers, footers, buttons, etc.
 pages: Page components such as Home, ProductDetails, Cart, etc.
@@ -119,12 +101,3 @@ Push to the branch (git push origin feature-branch).
 Open a Pull Request.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-
-
-
-
-
-
-
