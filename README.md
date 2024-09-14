@@ -58,11 +58,6 @@ Set up environment variables:
 
 Create a .env file in the root directory and add the following:
 
-env
-Copy code
-REACT_APP_API_URL=http://localhost:5000/api
-You can replace the API_URL with the actual backend API URL.
-
 Run the application:
 
 Using npm:
@@ -70,17 +65,19 @@ Using npm:
 Copy code
 npm start
 
-Open your browser and navigate to http://localhost:3000.
+Open your browser and navigate to
+```bash http://localhost:5173.```
 assets: Images, fonts, and other static files.
 components: Reusable UI components such as headers, footers, buttons, etc.
 pages: Page components such as Home, Product, Cart,singIn, signUp, shop, DashBoard, CheckOut, Product Description etc.
 redux: Redux store and slices for handling global state (optional).
 utils: Helper functions and services (e.g., API requests).
 Available Scripts
-npm run dev: Runs the app in development mode.
-npm run build: Builds the app for production to the build folder.
-npm run test: Runs the test suite (if tests are set up).
-
+```bash
+npm run dev
+npm run build
+npm run test
+```
 # Future Improvements
 Backend Integration: Connect the frontend with a Node/Express API to handle product listings, user authentication, and payment processing.
 Payment Gateway Integration: Add payment processing using services like Stripe.
@@ -94,4 +91,8 @@ Create a new branch (git checkout -b feature-branch).
 Commit your changes (git commit -m "added new feature").
 Push to the branch (git push origin feature-branch).
 Open a Pull Request.
-
+```bash
+name: Rahul Verma
+email: rahulaverma16@gmail.com
+phone no.: 9967923115
+```
